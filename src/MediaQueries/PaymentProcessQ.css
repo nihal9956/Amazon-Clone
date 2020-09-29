@@ -1,0 +1,39 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .order-container{
+        background-color: white;
+        height:100vh;
+    }
+    
+    .order-detailes{
+    
+      position: absolute;
+      top:20%;
+      left:8%;
+      border:1px solid rgba(0, 0, 0, 0.308);
+      border-radius:5px;
+      padding:25px;
+      width:70%;
+        
+    }
+    .order-detailes>form{
+    
+        margin-top:20px;
+    
+    }
+    .logo2{
+        margin-left:33%;
+        padding-top:25px;
+    }
+    
+    .checkout{
+        background-color:#F2CA67;;
+        padding:10px;
+        margin:10% 0;
+        border:none;
+        width:90%;
+    }
+
+}

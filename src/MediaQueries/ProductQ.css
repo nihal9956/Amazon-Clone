@@ -1,0 +1,50 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+ 
+    .product-Container{
+        margin-left:3px;
+        padding-bottom:-50px;
+        margin-bottom:-10px;
+      
+       
+        
+    }
+
+    .product{
+       width:90px;
+       height:200px;
+       margin-left:2px;
+    margin-top:80px;
+    /* padding-bottom:20px; */
+    }
+   .product>img{
+       width:100px;
+       height:auto;
+       object-fit: contain;
+   }
+
+   .product>button{
+    
+    padding:10px;
+    width:90px;
+    padding-bottom:15px;
+    cursor: pointer ;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.product-title{
+
+    font-size:10px;
+    padding-bottom:35px;
+    overflow: hidden;
+}
+.product-rating>.MuiSvgIcon-root{ font-size:15px;
+margin-bottom:70px;
+}
+.product-price{ font-size:12px;
+padding-bottom:12px;
+
+}
+}

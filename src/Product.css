@@ -1,0 +1,53 @@
+.product-row{
+    display:flex;
+    flex:1;
+    flex-wrap:wrap;
+    z-index:1;
+    /* padding:50px; */
+}
+
+.product{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    margin-left:10px;
+    margin-right:5px;
+    margin-top:15px;
+    padding:10px;
+    width:auto;
+    max-height:auto;
+background-color:white;
+  
+}
+
+.product-rating{
+    color:#dd9d4a;
+}
+.product-price{
+    color:#B12704;
+}
+.product-title{
+    max-width:200px;
+}
+.product>button{
+    border:none;
+    background-color:#F2CA67;
+    padding:10px;
+    width:150px;
+    cursor: pointer ;
+}
+.product>button:focus{
+    outline: none;
+}
+.product>img{
+    object-fit: contain;
+    width:300px;
+    height:300px;
+    padding-bottom:10px;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}

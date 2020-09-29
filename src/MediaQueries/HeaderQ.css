@@ -1,0 +1,66 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    *{
+        overflow-x: hidden;
+    }
+    .header{
+        height:30px;
+        margin-bottom:-40px;
+       
+       
+    }
+    .header-logo{
+        width:30px;
+        margin:7px 7px 0 7px;
+}
+
+.header-searchInput{
+    height:0px;
+    padding:5px;
+    border-radius:0;
+    
+}
+
+.header-searchIcon{
+  
+    padding:2.5px 0;
+    margin-top:10px;
+    margin-left:-30px;
+    height:5px !important;
+}
+
+.header-Nav{
+    display: flex;
+    margin-right:50px;
+
+}
+.header-option{
+    display: flex;
+    flex-direction:column;
+    padding:0;
+    margin:5px;
+}
+.header-optionLineOne{
+    font-size:6px;
+    
+}
+.header-optionLineTwo{
+    font-size:7px;
+    font-weight:800;
+    
+}
+
+.header-optionBasket{
+   
+    font-size:5px;
+}
+.header-optionBasket>.MuiSvgIcon-root{
+    font-size:10px;
+    margin-top:5px;
+}
+.basketCount{
+    margin:0 2px;
+}
+}

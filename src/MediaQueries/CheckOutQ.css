@@ -1,0 +1,48 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .empty{
+        font-size:20px;
+        margin-left:80px;
+    }
+    .cart-heading{
+        margin:20px 130px 10px 130px;
+        font-size:30px;
+        font-weight:400;
+        color:rgb(71, 71, 71)
+    }
+    .item_Card{
+        width:100%;
+    }
+    
+    .cart-card{
+        display: flex;
+        width:90%;
+        height:150px;
+        margin:10px auto 10px auto;
+    
+    }
+    .item-name{
+        font-size:10px;
+    }
+    .item-des>span{
+        font-size:12px;
+    }
+    .item-des{
+        padding:5px;
+    }
+    .item-avatar img{
+
+        width:80px;
+        height:100px;
+        object-fit: contain;
+        padding-right:10px;
+        padding-top:5px;
+        
+    }
+    .item-avatar{
+        margin-left:-80px;  
+        padding-right:60px;
+    }
+}
